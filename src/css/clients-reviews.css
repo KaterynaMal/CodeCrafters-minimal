@@ -22,11 +22,14 @@
 
 .clients-block {
  display: flex;
- flex-wrap: wrap;
  padding-top: 24px;
  padding-bottom: 24px;
  padding-left: 24px;
  padding-right: 68px;
+}
+
+.clients-info {
+   flex-direction: column;
 }
 
 .clients-list {
