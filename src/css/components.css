@@ -4,7 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 0;
 }
@@ -15,13 +15,35 @@ body {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .section {
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
 
 .visually-hidden {
     position: absolute;
@@ -38,4 +60,12 @@ body {
 
 .list {
     list-style-type: none;
+}
+
+.section-title {
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
 }
