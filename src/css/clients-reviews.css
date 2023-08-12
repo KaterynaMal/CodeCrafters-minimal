@@ -22,10 +22,8 @@
 
 .clients-block {
  display: flex;
- padding-top: 24px;
- padding-bottom: 24px;
- padding-left: 24px;
- padding-right: 68px;
+ margin-bottom: 24px;
+ gap: 14px;
 }
 
 .clients-info {
@@ -52,8 +50,7 @@
     font-weight: 700;
     line-height: 1.78;
     text-transform: uppercase;
-    margin-top: 24px;
-}
+  }
 
 .clients-term {
     font-size: 14px;
