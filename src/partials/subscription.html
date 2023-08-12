@@ -57,17 +57,20 @@
     </form>
 
     <div class="subscription-image-container">
-      <img
-        class="subscription-image"
-        srcset="
-          ./img/subscription.img/product7-mob-1x.jpg 1x,
-          ./img/subscription.img/product7-mob-2x.jpg 2x
-        "
-        src="./img/subscription.img/product7-mob-1x.jpg"
-        alt="Daniel Wilson photo"
-        width="343"
-        height="300"
-      />
+      <picture>
+        <source
+          srcset="
+            ./img/subscription.img/product7-mob-1x.jpg 1x,
+            ./img/subscription.img/product7-mob-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="subscription-image"
+          src="./img/subscription.img/product7-mob-1x.jpg"
+          alt="Grey Furniture Image"
+        />
+      </picture>
     </div>
   </div>
 </section>
