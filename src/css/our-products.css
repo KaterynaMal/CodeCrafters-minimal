@@ -1,0 +1,50 @@
+.product{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 64px;
+  }
+  
+  .sub-title-product{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #0A224A;
+    text-align: center;
+    margin-bottom: 33px;
+  }
+  
+  .product-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .product-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .text-titel-product{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    color: #0A224A;
+    text-align: left;
+  }
+  
+  .wraper-tab, .wraper-dec{
+    visibility: hidden;
+    display: none;
+  }
