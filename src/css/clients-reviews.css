@@ -92,6 +92,8 @@
 
        .clients-item {
         width: calc((100% - 16px)/2);
+        height: 319px;
+        padding: 24px;
        } 
 
 
@@ -155,7 +157,7 @@
     .clients-item {
         width: calc((100% - 48px) / 3);
         height: 306px;
-        padding: 24px;
+        padding: 32px;
     }
 
     .clients-name {
@@ -166,8 +168,18 @@
         flex-direction: row;
     }
 
+    .client-james {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+       }
+
     .client-emily {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
     }
 
  }
