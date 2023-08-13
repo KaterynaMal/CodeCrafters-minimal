@@ -1,5 +1,7 @@
 .clients-reviews {
     background-color: var(--background-white-blue-color);
+    padding-bottom: 64px;
+    padding-top: 64px;
     margin: 0 auto;
 } 
 
@@ -14,6 +16,7 @@
  padding-right: 16px;
  padding-bottom: 36px;
  }
+
 
 .clients-block {
  display: flex;
@@ -89,9 +92,8 @@
 
        .clients-item {
         width: calc((100% - 16px)/2);
-        height: 319px;
-        padding: 24px;
-       }
+       } 
+
 
        .clients-list {
         display: flex;
@@ -116,6 +118,7 @@
         flex-wrap: wrap;
         gap: 16px;
        }
+
 
        .client-emily {
         display: none;
@@ -166,4 +169,6 @@
     .client-emily {
         display: block;
     }
+
  }
+

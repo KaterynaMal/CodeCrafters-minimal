@@ -1,0 +1,41 @@
+@media  screen and (min-width: 320px) {
+    .bestsellers-h2{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 21px;
+    }
+    .bestsellers-big-img{
+        margin-bottom: 14px;
+    }
+    .bestsellers-name{
+        margin-bottom: 10px;
+        color: var(--primary-text-color);
+            font-size: 16px;
+            font-weight: 400;
+           
+    }
+    .bestsellers-price-p{
+            font-weight: 700;
+            
+           
+    }
+    .bestsellers-bigpicture-container{
+        margin-bottom: 30px;
+    }
+    .bestsellers-small-img {
+        
+        margin-bottom:14px;
+    }
+    .bestsellers-smallpicture-list{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .not-mob{
+        display: none;
+    }
+}   
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1440px) {}
