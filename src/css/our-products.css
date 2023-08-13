@@ -45,3 +45,31 @@
     visibility: hidden;
     display: none;
   }
+
+  @media screen and (min-width: 768px) {
+    .sub-title-product{
+      font-size: 32px;
+      line-height: 1.4;
+    }
+    .product-list {
+      gap: 16px;
+    }
+    .text-titel-product{
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .wraper-tab{
+      visibility: visible;
+      display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .product-list {
+        gap: 24px;
+    }
+    .wraper-dec{
+        visibility: visible;
+        display: block;
+    }
+}

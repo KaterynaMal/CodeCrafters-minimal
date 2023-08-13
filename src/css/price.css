@@ -42,3 +42,21 @@
     text-align: right;
     color: var(--primary-text-color);
 }
+@media screen and (min-width: 768px) {
+    .plan-text{
+        font-size: 32px;
+        line-height: 1.4;
+    }
+    .plan-item {
+        min-width: 704px;
+    }
+    .plan-options {
+        font-size: 18px;
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    .plan-item {
+        min-width: 1096px;
+    }
+}
