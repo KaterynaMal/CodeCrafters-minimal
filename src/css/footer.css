@@ -18,21 +18,39 @@
     fill: var(--white-text-color);
 }
 
-.footer-social-icon {
+.footer-icon-link {
+    display: flex;
+}
+
+.footer-social-icon-mob {
     display: flex;
     flex-direction: row;
     gap: 16px;
+}
+
+.footer-social-icon-tab {
+    display: none;
 }
 
 .footer-soclink-icon {
     fill: var(--white-text-color);
 }
 
-.footer-nav {
+.nvigatioan-mob {
     margin-bottom: 36px;
 }
+.footer-nav-mob {
+}
 
-.footer-menu-nav {
+.footer-nav-tab {
+    display: none;
+}
+
+.footer-menu-imet {
+    display: flex;
+}
+
+.footer-menu-nav-mob {
     color: var(--white-text-color);
     font-size: 16px;
     line-height: 1.5;
@@ -44,11 +62,15 @@
 .footer-address {
     color: var(--white-text-color);
     font-size: 16px;
-letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 }
 .link {
     text-decoration: none;
     font-style: normal;
+}
+
+.footer-address {
+    margin-bottom: 64px;
 }
 .contact-address {
     gap: 8px;
@@ -60,18 +82,23 @@ letter-spacing: 0.01em;
     gap: 8px;
 }
 
+.footer-address-list {
+    gap: 8px;
+}
+
 .footer-address-mail {
     display: none;
 }
 
 .footer-policy {
     color: var(--white-text-color);
+    min-width: 343px;
     text-align: center;
     font-size: 12px;
     line-height: 1.17; 
-    letter-spacing: 0.09em;
-    padding-top: 64px;
+    letter-spacing: 0.12em;
     opacity: 0.6;
+    margin: auto;
 }
 
 .terms-of-service {
@@ -86,6 +113,17 @@ letter-spacing: 0.01em;
     .container {
         max-width: 375px;
     }
+    
+    .footer-social-icon-mob {
+        display: none;
+    }
+
+    .footer-social-icon-tab {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    
 }
 
 
@@ -93,11 +131,62 @@ letter-spacing: 0.01em;
     .container {
         max-width: 768px;
     } 
+    .footer {
+        padding-bottom: 36px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .footer-logo-icon {
+        width: 127px;
+    }
+
+    .footer-nav-mob {
+        display: none;
+    }
+
+    .navigation-tab {
+        display: flex;
+        margin-bottom: 0px;
+    }
+
+    .footer-menu-nav-tab {
+        color: var(--white-text-color);
+        font-size: 18px;
+        line-height: 1.5;
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .footer-social-icon-tab {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    
+    .footer-social-icon-mob {
+        display: none;
+    }
+    .footer-social-icon-tab {
+        display: flex;
+    }
+
+
 }
 
 @media  screen and (min-width:1440px) {
     .container {
     max-width: 1440px;
 }
+.footer {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.footer-social-icon-tab {
+    gap: 32px;
+}
+
 }
 
