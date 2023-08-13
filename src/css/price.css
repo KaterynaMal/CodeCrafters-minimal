@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    align-items: center;
 } 
   
 .plan-text{
@@ -47,6 +48,9 @@
     .plan-text{
         font-size: 32px;
         line-height: 1.4;
+    }
+    .plan-list{
+        max-width: 708px;
     }
     .plan-item {
         min-width: 704px;
