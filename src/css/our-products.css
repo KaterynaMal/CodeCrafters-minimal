@@ -47,9 +47,6 @@
   }
 
   @media screen and (min-width: 768px) {
-    .section-product {
-      padding-bottom: 100px;
-    }
     .sub-title-product{
       font-size: 32px;
       line-height: 1.4;

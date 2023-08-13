@@ -1,5 +1,6 @@
 .plan-container {
     display: flex;
+    padding-bottom: 0;
 }
   
 .plan-list { 
