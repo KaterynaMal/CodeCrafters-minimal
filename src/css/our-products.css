@@ -61,6 +61,9 @@
     .product-list {
       gap: 16px;
     }
+    .product-img{
+      max-width: 344px;
+    }
     .text-titel-product{
       font-size: 18px;
       font-weight: 400;
