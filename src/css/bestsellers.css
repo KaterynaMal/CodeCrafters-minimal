@@ -136,11 +136,7 @@
         align-items: start;
         column-gap: 24px;
     }
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left:auto;
-        margin-right: auto;
+        
 
     .bestsellers-h2 {}
 
