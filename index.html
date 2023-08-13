@@ -15,8 +15,8 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/CodeCrafters-minimal/assets/index-7f811bea.js"></script>
-    <link rel="stylesheet" href="/CodeCrafters-minimal/assets/index-aaab9742.css">
+    <script type="module" crossorigin src="/CodeCrafters-minimal/assets/index-39dd3c54.js"></script>
+    <link rel="stylesheet" href="/CodeCrafters-minimal/assets/index-1c44f802.css">
   </head>
   <body>
     
@@ -242,7 +242,88 @@
        </ul>
     </div>
     </section>
-    
+    <section id="subscription" class="subscription section">
+  <div class="subscription-input-section container">
+    <h2 class="subscription-title section-title">Newsletter</h2>
+    <p class="subscription-text">
+      Every week we will send you new designs and information about sales.
+    </p>
+    <form class="subscription-form">
+      <div class="subscription-field">
+        <label for="user-name" class="input-label">
+          <input
+            type="text"
+            name="user-name"
+            class="subscription-input"
+            id="user-name"
+            placeholder="Name"
+            maxlength="16"
+            minlength="2"
+            required
+          />
+          <svg class="input-error-icon" width="24" height="24">
+            <use href="/CodeCrafters-minimal/assets/icons-f753c465.svg#icon-baseline-error-outline"></use>
+          </svg>
+        </label>
+      </div>
+      <div class="subscription-field">
+        <label for="user-mail" class="input-label">
+          <input
+            type="email"
+            name="user-email"
+            class="subscription-input"
+            id="user-email"
+            placeholder="E-mail"
+            required
+          />
+          <svg class="input-error-icon" width="24" height="24">
+            <use href="/CodeCrafters-minimal/assets/icons-f753c465.svg#icon-baseline-error-outline"></use>
+          </svg>
+        </label>
+      </div>
+      <div class="subscription-checkbox">
+        <input
+          type="checkbox"
+          name="user-agree"
+          id="user-agree"
+          class="subscription-check visually-hidden"
+          value="true"
+        />
+        <label for="user-agree" class="check-label"
+          ><span class="checkbox-span"
+            ><svg class="checkbox-icon" width="13" height="13">
+              <use href="/CodeCrafters-minimal/assets/icons-f753c465.svg#icon-check"></use></svg></span
+          >Agree to subscribe to the newsletter</label
+        >
+      </div>
+
+      <button type="submit" class="subscription-send-button">Send</button>
+    </form>
+    <div class="subscription-image-container">
+      <picture>
+        <source
+          srcset="/CodeCrafters-minimal/assets/product14-desktop-1x-6a838b86.jpg 1x, /CodeCrafters-minimal/assets/product14-desktop-2x-43e01c65.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/CodeCrafters-minimal/assets/product11-tab-1x-d4b1f83f.jpg 1x, /CodeCrafters-minimal/assets/product11-tab-2x-4eeb7e60.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/CodeCrafters-minimal/assets/product7-mob-1x-6eae592f.jpg 1x, /CodeCrafters-minimal/assets/product7-mob-2x-9ff4cffe.jpg 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          class="subscription-image"
+          src="/CodeCrafters-minimal/assets/product14-desktop-1x-6a838b86.jpg"
+          alt="Grey Furniture Image"
+          width="343"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
     
 
     
