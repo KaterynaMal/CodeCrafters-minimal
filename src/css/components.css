@@ -33,7 +33,40 @@ body {
         padding-top: 100px;
         padding-bottom: 100px;
     }
-
+    /* === prise === */
+    .plan-list { 
+        padding-top: 100px;
+        padding-bottom: 100px;
+      } 
+      .plan-text{
+        font-size: 32px;
+        line-height: 1.4;
+      }
+      .plan-item {
+        min-width: 704px;
+      }
+      .plan-options {
+        font-size: 18px;
+      } 
+  /* === our product === */
+    .product{
+      margin-bottom: 100px;
+    }
+    .sub-title-product{
+      font-size: 32px;
+      line-height: 1.4;
+    }
+    .product-list {
+      gap: 16px;
+    }
+    .text-titel-product{
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .wraper-tab{
+      visibility: visible;
+      display: block;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -41,6 +74,18 @@ body {
         max-width: 1440px;
         padding-left: 60px;
         padding-right: 60px;
+    }
+    /* === price === */
+    .plan-item {
+        min-width: 1096px;
+    }
+    /* === our product === */
+    .product-list {
+        gap: 24px;
+    }
+    .wraper-dec{
+        visibility: visible;
+        display: block;
     }
 }
 
