@@ -25,10 +25,6 @@
    flex-direction: column;
 }
 
-.client-alexandra {
-    display: flex;
-}
-
 .clients-list {
     display: flex;
     flex-wrap: wrap;
@@ -87,12 +83,12 @@
      }
 
         .clients-title {
-            font-size: 32px;
-            line-height: 1.41;
+        font-size: 32px;
+        line-height: 1.41;
         }
 
        .clients-item {
-        width: calc((100% - 16px) / 2);
+        width: calc((100% - 16px)/2);
         height: 319px;
         padding: 24px;
        }
@@ -100,6 +96,7 @@
        .clients-list {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         gap: 16px;
        }
 
@@ -115,6 +112,9 @@
 
        .client-james {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
        }
 
        .client-emily {
