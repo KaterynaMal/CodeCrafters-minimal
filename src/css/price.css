@@ -1,0 +1,67 @@
+.plan-container {
+    display: flex;
+    padding-top: 0;
+}
+  
+.plan-list { 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+} 
+  
+.plan-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    color: var(--primary-text-color);
+    text-align: left;
+}
+    
+  
+.plan-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid #0A224A;
+    min-width: 288px;
+    padding: 30px 0;
+}
+  
+.plan-item:last-child {
+    border-bottom: 1px solid #0A224A;
+}
+          
+.plan-options {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: right;
+    color: var(--primary-text-color);
+}
+@media screen and (min-width: 768px) {
+    .plan-text{
+        font-size: 32px;
+        line-height: 1.4;
+    }
+    .plan-list{
+        max-width: 708px;
+    }
+    .plan-item {
+        min-width: 704px;
+    }
+    .plan-options {
+        font-size: 18px;
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    .plan-item {
+        min-width: 1096px;
+    }
+}
