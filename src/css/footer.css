@@ -63,27 +63,24 @@
     color: var(--white-text-color);
     font-size: 16px;
     letter-spacing: 0.01em;
+    margin-bottom: 64px;
 }
 .link {
     text-decoration: none;
     font-style: normal;
 }
 
-.footer-address {
-    margin-bottom: 64px;
-}
 .contact-address {
-    gap: 8px;
-    padding-bottom: 36px;
-}
-
-.footer-address-tel {
     display: flex;
     gap: 8px;
+    padding-bottom: 36px;
+    flex-direction: column;
 }
 
 .footer-address-list {
+    display: flex;
     gap: 8px;
+    flex-direction: column;
 }
 
 .footer-address-mail {
@@ -123,7 +120,10 @@
         flex-direction: row;
         gap: 16px;
     }
-    
+
+    .footer-nav-tab {
+    display: none;
+}
 }
 
 
@@ -136,6 +136,11 @@
         padding-left: 32px;
         padding-right: 32px;
     }
+    .footer-logo-social {
+        align-items: flex-start;
+        margin-bottom: 0px;
+        }
+
 
     .footer-logo-icon {
         width: 127px;
@@ -169,6 +174,12 @@
         display: none;
     }
     .footer-social-icon-tab {
+        display: flex;
+    }
+    .footer-nav-tab {
+        display: flex;
+    }
+    .footer-address-mail {
         display: flex;
     }
 
