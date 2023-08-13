@@ -55,20 +55,34 @@
 
       <button type="submit" class="subscription-send-button">Send</button>
     </form>
-
     <div class="subscription-image-container">
       <picture>
+        <source
+          srcset="
+            ./img/subscription.img/product14-desktop-1x.jpg 1x,
+            ./img/subscription.img/product14-desktop-2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/subscription.img/product11-tab-1x.jpg 1x,
+            ./img/subscription.img/product11-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
         <source
           srcset="
             ./img/subscription.img/product7-mob-1x.jpg 1x,
             ./img/subscription.img/product7-mob-2x.jpg 2x
           "
-          media="(max-width: 767px)"
+          media="(min-width: 320px)"
         />
         <img
           class="subscription-image"
-          src="./img/subscription.img/product7-mob-1x.jpg"
+          src="./img/subscription.img/product14-desktop-1x.jpg"
           alt="Grey Furniture Image"
+          width="343"
         />
       </picture>
     </div>
