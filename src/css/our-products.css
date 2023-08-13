@@ -84,4 +84,8 @@
         visibility: visible;
         display: block;
     }
+
+    .product-img {
+        max-width: 312px;
+     }
 }
