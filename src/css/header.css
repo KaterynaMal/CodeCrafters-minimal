@@ -1,1 +1,253 @@
+.header-container {
+  height: 88px;
+  background-color: var(--background-white-blue-color);
+  justify-content: space-between;
+  display: flex;
+}
 
+.mob-menu {
+  background-color: var(--background-white-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+.mob-logo {
+  padding-left: 16px;
+  height: 16px;
+  width: 100px;
+  margin-top: 36px;
+}
+
+.header-burger {
+  background-color: transparent;
+  border-color: transparent;
+
+  margin-right: 16px;
+  margin-top: 28px;
+  width: 32px;
+  height: 32px;
+}
+
+.header-burger-svg {
+  width: 32px;
+  height: 32px;
+}
+
+.header-nav-desk {
+  display: none;
+}
+
+.button-close {
+  height: 32px;
+  width: 32px;
+  margin-right: 16px;
+  border-color: transparent;
+  background-color: transparent;
+  margin-top: 28px;
+}
+
+.button-close-svg {
+  height: 32px;
+  width: 32px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-list {
+  padding-top: 114px;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mob-menu-li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob-menu-item {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.mob-menu-li:hover,
+.mob-menu-li:focus {
+  color: var(--button-accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .mob-logo {
+    width: 127px;
+    padding-left: 32px;
+    margin-top: 39px;
+  }
+  .header-container {
+    height: 95px;
+  }
+
+  .header-burger {
+    margin-right: 32px;
+    margin-top: 28px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-burger-svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .mob-menu-item {
+    font-size: 18px;
+  }
+
+  .header-list {
+    gap: 30px;
+    padding-top: 150px;
+  }
+
+  .button-close {
+    height: 40px;
+    width: 40px;
+    margin-right: 32px;
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  .button-close-svg {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .mob-logo {
+    width: 127px;
+    margin-left: 60px;
+    margin-top: 39px;
+  }
+
+  .header-container {
+    height: 95px;
+  }
+  .header-burger-svg {
+    display: none;
+  }
+  .header-burger {
+    display: none;
+  }
+
+  .header-nav-desk {
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .header-list-desk {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+  }
+
+  .mob-menu-item-desk {
+    color: var(--primary-text-color);
+    font-family: Roboto;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .mob-menu-li-desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mob-menu-li-desk:hover,
+  .mob-menu-li-desk:focus {
+    color: var(--button-accent-color);
+  }
+}
+
+/*header {
+  background-color: #F7FAFF;
+}
+
+.header-container {
+  display: flex;
+  max-width: 375px;
+  padding: 28px 16px;
+ justify-content: space-between;
+ align-items: center;
+  margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.menu-btn {
+  background-color: inherit;
+    border: none;
+    cursor: pointer;
+    height: 100%;
+    margin-left: auto;
+    padding: 0;
+}
+
+.modal-menu-container {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary-white-color);
+    z-index: 999;
+    padding: 80px 35px 40px 40px;
+    overflow: scroll;
+    transform: translateX(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.modal-menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-close-btn {
+  display: flex;
+  fill: var(--title-text-color);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+  border: 1px solid var(--main-border-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  cursor: pointer;
+}*/
