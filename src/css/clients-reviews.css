@@ -53,20 +53,16 @@
 .clients-term {
     font-size: 14px;
     line-height: 1.28;
-
 }
+
 .clients-text {
     font-size: 14px;
     line-height: 1.43;
-
 }
 
-.client-emily {
-    display: none;
-}
-
-.client-james {
-    display: none;
+.clients-list .clients-item:nth-child(2),
+.clients-list .clients-item:nth-child(3){
+display: none;
 }
 
 @media screen and (min-width: 375px){
@@ -92,6 +88,8 @@
 
        .clients-item {
         width: calc((100% - 16px)/2);
+        height: 319px;
+        padding: 24px;
        } 
 
 
@@ -112,18 +110,11 @@
         line-height: 1.5;
        }
 
-       .client-james {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 16px;
-       }
-
-
-       .client-emily {
-        display: none;
-       }
-}
+       .clients-list .clients-item:nth-child(2) 
+       {
+       display: block;
+       } 
+  }
 
 @media  screen and (min-width:1440px) {
         .container {
@@ -155,7 +146,7 @@
     .clients-item {
         width: calc((100% - 48px) / 3);
         height: 306px;
-        padding: 24px;
+        padding: 32px;
     }
 
     .clients-name {
@@ -166,9 +157,10 @@
         flex-direction: row;
     }
 
-    .client-emily {
-        display: block;
-    }
+    .clients-list .clients-item:nth-child(2),
+    .clients-list .clients-item:nth-child(3){  
+    display: block;
+}
 
  }
 
