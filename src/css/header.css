@@ -44,9 +44,10 @@
 .button-close {
   height: 32px;
   width: 32px;
-  padding-right: 16px;
+  margin-right: 16px;
   border-color: transparent;
   background-color: transparent;
+  margin-top: 28px;
 }
 
 .button-close-svg {
@@ -113,6 +114,19 @@
   .header-list {
     gap: 30px;
     padding-top: 150px;
+  }
+
+  .button-close {
+    height: 40px;
+    width: 40px;
+    margin-right: 32px;
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  .button-close-svg {
+    height: 40px;
+    width: 40px;
   }
 }
 
