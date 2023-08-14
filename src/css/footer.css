@@ -262,9 +262,14 @@
     padding-right: 60px;
 }
 
+.footer-logo-tab {
+    margin-right: 209px;
+}
+
 .footer-logo-social {
     align-items: center;
     margin-bottom: 0px;
+    justify-content: flex-start;
     }
 
 .address {
@@ -284,6 +289,10 @@
 .navigation-mob {
     margin-bottom: 32px;
 }
+.navigation-tab {
+    margin-right: 286px;
+}
+
 .footer-address {
     font-size: 19px;
     display: flex;
