@@ -6,9 +6,6 @@
     padding-right: 16px;
 }
 
-.footer-logo-tab {
-    display: none;
-}
 
 .footer-logo-social{
     display: flex;
@@ -156,17 +153,6 @@
     padding-right: 32px;
 }
 
-.footer-logo {
-    display: none;
-}
-
-.footer-logo-tab {
-    display: flex;
-}
-
-.footer-logo-icon-tab {
-    fill: var(--white-text-color);
-}
 
 .footer-logo-social {
     align-items: flex-start;
@@ -174,7 +160,8 @@
 }
 
 .footer-logo-icon {
-    width: 127px;
+    width: 128px;
+    height: 17px;
 }
 
 .address {
@@ -268,7 +255,7 @@
     padding-right: 60px;
 }
 
-.footer-logo-tab {
+.footer-logo {
     margin-right: 209px;
 }
 
