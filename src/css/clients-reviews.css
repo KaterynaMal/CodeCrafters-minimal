@@ -78,10 +78,17 @@ display: none;
     
     .clients-container {
         padding-left: 32px;
-        padding-right: 32px;
+            padding-right: 32px;
+        
      }
 
+   .clients-reviews {
+    padding-top: 36px;
+    padding-bottom: 36px;
+   }
+
         .clients-title {
+            margin-top: 0;
         font-size: 32px;
         line-height: 1.41;
         }
@@ -134,7 +141,13 @@ display: none;
     .clients-title {
        font-size: 32px;
        line-height: 1.41;
-        margin-top: 60px;
+        margin-top: 0;
+    }
+
+    .clients-reviews {
+        background-color: var(--background-white-blue-color);
+        padding-bottom: 60px;
+        padding-top: 60px;
     }
 
     .clients-list {
