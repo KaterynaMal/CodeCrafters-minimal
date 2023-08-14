@@ -1,62 +1,64 @@
 <section id="subscription" class="subscription section">
   <div class="subscription-input-section container">
-    <h2 class="subscription-title section-title">Newsletter</h2>
-    <p class="subscription-text">
-      Every week we will send you new designs and information about sales.
-    </p>
-    <form class="subscription-form">
-      <div class="subscription-field">
-        <label for="user-name" class="input-label">
+    <div class="subscription-main-container">
+      <h2 class="subscription-title section-title">Newsletter</h2>
+      <p class="subscription-text">
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form class="subscription-form">
+        <div class="subscription-field">
+          <label for="user-name" class="input-label">
+            <input
+              type="text"
+              name="user-name"
+              class="subscription-input"
+              id="user-name"
+              placeholder="Name"
+              maxlength="16"
+              minlength="2"
+              required
+            />
+            <svg class="input-error-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-baseline-error-outline"></use>
+            </svg>
+          </label>
+        </div>
+        <div class="subscription-field">
+          <label for="user-mail" class="input-label">
+            <input
+              type="email"
+              name="user-email"
+              class="subscription-input"
+              id="user-email"
+              placeholder="E-mail"
+              required
+            />
+            <svg class="input-error-icon" width="24" height="24">
+              <use href="./img/icons.svg#icon-baseline-error-outline"></use>
+            </svg>
+          </label>
+        </div>
+        <div class="subscription-checkbox">
           <input
-            type="text"
-            name="user-name"
-            class="subscription-input"
-            id="user-name"
-            placeholder="Name"
-            maxlength="16"
-            minlength="2"
-            required
+            type="checkbox"
+            name="user-agree"
+            id="user-agree"
+            class="subscription-check visually-hidden"
+            value="true"
           />
-          <svg class="input-error-icon" width="24" height="24">
-            <use href="./img/icons.svg#icon-baseline-error-outline"></use>
-          </svg>
-        </label>
-      </div>
-      <div class="subscription-field">
-        <label for="user-mail" class="input-label">
-          <input
-            type="email"
-            name="user-email"
-            class="subscription-input"
-            id="user-email"
-            placeholder="E-mail"
-            required
-          />
-          <svg class="input-error-icon" width="24" height="24">
-            <use href="./img/icons.svg#icon-baseline-error-outline"></use>
-          </svg>
-        </label>
-      </div>
-      <div class="subscription-checkbox">
-        <input
-          type="checkbox"
-          name="user-agree"
-          id="user-agree"
-          class="subscription-check visually-hidden"
-          value="true"
-        />
-        <label for="user-agree" class="check-label"
-          ><span class="checkbox-span"
-            ><svg class="checkbox-icon" width="13" height="13">
-              <use href="./img/icons.svg#icon-check"></use></svg></span
-          >Agree to subscribe to the newsletter</label
-        >
-      </div>
+          <label for="user-agree" class="check-label"
+            ><span class="checkbox-span"
+              ><svg class="checkbox-icon" width="13" height="13">
+                <use href="./img/icons.svg#icon-check"></use></svg></span
+            >Agree to subscribe to the newsletter</label
+          >
+        </div>
 
-      <button type="submit" class="subscription-send-button">Send</button>
-    </form>
+        <button type="submit" class="subscription-send-button">Send</button>
+      </form>
+    </div>
     <div class="subscription-image-container">
-      <picture>
+      <picture class="subscription-image">
         <source
           srcset="
             ./img/subscription.img/product14-desktop-1x.jpg 1x,
@@ -79,7 +81,7 @@
           media="(min-width: 320px)"
         />
         <img
-          class="subscription-image"
+          class="subscription-img"
           src="./img/subscription.img/product14-desktop-1x.jpg"
           alt="Grey Furniture Image"
           width="343"
