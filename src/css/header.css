@@ -85,6 +85,11 @@
   line-height: 1.5;
 }
 
+.mob-menu-li:hover,
+.mob-menu-li:focus {
+  color: var(--button-accent-color);
+}
+
 @media screen and (min-width: 768px) {
   .mob-logo {
     width: 127px;
@@ -175,5 +180,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .mob-menu-li-desk:hover,
+  .mob-menu-li-desk:focus {
+    color: var(--button-accent-color);
   }
 }
