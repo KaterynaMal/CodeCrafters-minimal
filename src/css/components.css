@@ -22,6 +22,28 @@ body {
   padding-bottom: 64px;
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -38,3 +60,12 @@ body {
 .list {
   list-style-type: none;
 }
+
+.section-title {
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
