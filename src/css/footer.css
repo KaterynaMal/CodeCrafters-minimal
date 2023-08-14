@@ -22,7 +22,8 @@
     fill: var(--white-text-color);
 }
 .footer-soclink-icon:hover {
-    fill: blue;
+    fill: --button-accent-color;
+    background-color: --background-white-color;
 }
 .footer-soclink-icon:focus {
     fill: blue;
