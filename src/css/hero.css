@@ -2,10 +2,10 @@
     background-color: var(--background-white-color);
         padding-top:0px ;
         padding-bottom: 0px;
-        height: 100vh;
-        max-height: 767px;
+        height: 717px;
+        
         background-image: 
-        url(../img/hero.img/product1-mob-1x.jpg);
+        url(./img/hero.img/product1-mob-1x.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -19,11 +19,12 @@
 (min-resolution: 2dppx) {
     .hero-section {
         background-image:
-            url(../img/hero.img/product1-mob-2x.jpg);
+            url(./img/hero.img/product1-mob-2x.jpg);
     }
 }
 .hero-container{
     padding-top: 140px;
+    padding-bottom: 313px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
