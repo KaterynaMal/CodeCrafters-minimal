@@ -166,3 +166,42 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .subscription.section {
+    padding-top: 100px;
+    padding-bottom: 86px;
+  }
+
+  .subscription-input-section {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscription-title {
+    margin-bottom: 32px;
+  }
+
+  .subscription-text {
+    margin-bottom: 21px;
+  }
+
+  .subscription-input {
+    height: 52px;
+    padding: 11px 20px;
+  }
+
+  .subscription-field {
+    margin-bottom: 21px;
+  }
+
+  .subscription-checkbox {
+    margin-bottom: 32px;
+  }
+
+  .subscription-form {
+    margin-bottom: 0;
+  }
+}
