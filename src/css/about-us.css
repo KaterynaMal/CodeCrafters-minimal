@@ -121,3 +121,34 @@
             max-width: 704px;
         }
 }
+
+@media screen and (min-width: 1440px) {
+    .about-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 1440px;
+        padding-left: 60px;
+        padding-right: 60px;
+        height: 540px;
+    }
+
+    .about-text-container {
+        padding: 36px 69px;
+        margin-bottom: 0px;
+        margin-right: 24px;
+        width: 760px;
+        height: 500px;
+    }
+
+    .about-list-item {
+        width: 170px;
+    }
+
+    .about-img {
+       display: flex;
+        max-width: 536px;
+       
+    }
+
+}
