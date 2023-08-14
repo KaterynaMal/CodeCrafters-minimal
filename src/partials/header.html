@@ -1,33 +1,55 @@
-<div class="container">
+<div>
   <div class="header-container">
     <a href="index.html">
-      <svg class="mob-logo" height="16" width="100">
+      <svg class="mob-logo">
         <use href="../img/icons.svg#icon-logo-mob"></use>
       </svg>
     </a>
+    <nav class="header-nav-desk">
+      <ul class="header-list-desk">
+        <li class="mob-menu-li-desk">
+          <a class="mob-menu-item-desk" href="./about-us.html">About us</a>
+        </li>
+        <li class="mob-menu-li-desk">
+          <a class="mob-menu-item-desk" href="./our-products.html"
+            >Our products</a
+          >
+        </li>
+        <li class="mob-menu-li-desk">
+          <a class="mob-menu-item-desk" href="./price.html">Prices</a>
+        </li>
+        <li class="mob-menu-li-desk">
+          <a class="mob-menu-item-desk" href="./bestsellers.html"
+            >Bestsellers</a
+          >
+        </li>
+        <li class="mob-menu-li-desk">
+          <a class="mob-menu-item-desk" href="./clients-reviews.html"
+            >Reviews</a
+          >
+        </li>
+        <li class="mob-menu-li-desk">
+          <a class="mob-menu-item-desk" href="./subscription.html">Contacts</a>
+        </li>
+      </ul>
+    </nav>
 
-    <button
-      type="button"
-      class="header-burger"
-      data-menu-open
-      width="32"
-      height="32"
-    >
-      <svg width="32" height="32" class="header-burger-svg">
-        <use href="../img/icons.svg#"></use>
+    <button type="button" class="header-burger" js-open-menu>
+      <svg header-burger-svg class="header-burger-svg">
+        <use href="../img/icons.svg#icon-menu-hamburger"></use>
       </svg>
     </button>
   </div>
-  <div class="mob-menu is-hidden" data-menu>
+  <div class="mob-menu is-hidden" js-menu-container>
     <div class="header-container">
-      <a href="index.html" class="mob-logo">
-        <svg class="mob-logo" height="16" width="100">
-          <use href="../img/icons.svg#icon-logo-mob"></use>
+      <a href="index.html">
+        <svg class="mob-logo">
+          <use href="./img/icons.svg#icon-logo-mob"></use>
         </svg>
       </a>
-      <button type="button" class="button-close" data-menu-close>
-        <svg width="32" height="32">
-          <use href="../img/icons.svg#icon-close-mob"></use>
+      <button type="button" class="button-close" js-close-menu>
+        <svg class="button-close-svg">
+          <use href="./img/icons.svg#icon-close-mob"></use>
         </svg>
       </button>
     </div>
@@ -55,4 +77,3 @@
     </nav>
   </div>
 </div>
-<script src="../js/menu.js"></script>

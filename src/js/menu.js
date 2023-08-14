@@ -1,15 +1,18 @@
-(() => {
-  const refs = {
-    openMenuBtn: document.querySelector('[data-menu-open]'),
-    closeMenuBtn: document.querySelector('[data-menu-close]'),
-    menu: document.querySelector('[data-menu]'),
-  };
+document.addEventListener('DOMContentLoaded', function () {
+  var modalButtons = document.querySelectorAll('.js-open-modal'),
+    overlay = document.querySelector('#overlay-modal'),
+    closeButtons = document.querySelector('.js-modal-close');
 
-  refs.openMenuBtn.addEventListener('click', toggleMenu);
-  refs.closeMenuBtn.addEventListener('click', toggleMenu);
+  modalButtons.forEach(function (item) {
+    item.addEventListener('click', function (e) {
+      e.preventDefault();
+      var modalId = this.getAttribute('data-modal'),
+        modalElem = document.querySelector(
+          '.modal[data-modal="' + modalId + '"]'
+        );
 
-  function toggleMenu() {
-    refs.menu.classList.toggle('is-hidden');
-    document.body.classList.toggle('no-scroll');
-  }
-})();
+      modalElem.classList.add('active');
+      overlay.classList.add('active');
+    }); // end click
+  }); // end foreach
+}); // end ready
