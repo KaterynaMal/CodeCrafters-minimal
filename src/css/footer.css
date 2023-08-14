@@ -21,6 +21,12 @@
 .footer-logo-icon {
     fill: var(--white-text-color);
 }
+.footer-soclink-icon:hover {
+    fill: blue;
+}
+.footer-soclink-icon:focus {
+    fill: blue;
+}
 
 .address-tab {
     display: none;
