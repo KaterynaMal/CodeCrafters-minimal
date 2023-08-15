@@ -15,14 +15,29 @@
     margin-bottom: 36px;
 }
 
-.footer-logo-icon {
+/*.footer-logo-icon {
     fill: var(--white-text-color);
+}*/
+
+.footer-icon-link {
+    fill: var(--white-text-color);
+    background-color: transparent;
+    display: flex;
+        width: 40px;
+        height: 40px;
+        
 }
-.footer-soclink-icon:hover {
-    fill: blue;
+
+.footer-icon-link:hover .footer-soclink-icon,
+.footer-icon-link:focus {
+    fill: var(--button-accent-color);
+    background-color: #fff;
+    
 }
-.footer-soclink-icon:focus {
-    fill: blue;
+
+.footer-soclink-icon {
+    display: flex;
+    border-radius: 50%;
 }
 
 .address-tab {
@@ -31,9 +46,11 @@
 
 .footer-icon-link {
     display: flex;
+    width: 40px;
+    height: 40px;
 }
 
-.footer-social-icon-mob {
+.footer-social-icon-tab {
     display: flex;
     flex-direction: row;
     gap: 16px;

@@ -1,0 +1,196 @@
+.hero-section{
+    
+    background-color: var(--background-white-color);
+        padding-top:0px ;
+        padding-bottom: 0px;
+        height: 717px;
+        
+        background-image: 
+        url(../img/hero.img/product1-mob-1x.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        
+        margin-left: auto;
+        margin-right: auto;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-section {
+        background-image:
+            url(../img/hero.img/product1-mob-2x.jpg);
+    }
+}
+.hero-container{
+padding-top: 140px;
+    padding-bottom: 313px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    
+}
+.hero-h1{
+    font-family: Playfair Display, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 285px;    
+    margin-bottom: 14px;
+}
+.hero-p{
+    max-width: 343px;
+    margin-bottom: 28px;
+}
+.hero-subscribe-link{
+color: var(--white-text-color);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+padding: 12px 65px;
+background-color:var(--button-primary-color) ;
+max-width: 224px;
+display:inline-block;
+}
+.hero-subscribe-link:hover,
+.hero-subscribe-link:focus{
+    background-color: var(--button-accent-color);
+}
+
+
+
+
+
+
+@media  screen and (min-width:768px) {
+.hero-section {
+    
+        background-color: var(--background-white-color);
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 100%;
+        
+        background-image: none;
+        max-width: 768px;
+    }
+
+.hero-container {
+padding-top: 64px;
+    padding-bottom: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+}
+
+.hero-h1 {
+    font-family: Playfair Display, sans-serif;
+    font-size: 50px;
+    max-width: 648px;
+    margin-bottom: 0px;
+}
+.hero-h1-container{
+    min-width: 704px;
+    min-height: 528px;
+    margin-bottom: 32px;
+    background-image:
+            url(../img/hero.img/product1-tab-1x.jpg),
+            url(../img/hero.img/product2-tab-1x.jpg);
+        background-repeat: no-repeat;
+        background-size: 308px 329px, 367px 531px;
+        background-position:left bottom, right bottom;
+
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero-h1-container {
+        background-image:
+            url(../img/hero.img/product1-tab-2x.jpg),
+            url(../img/hero.img/product2-tab-2x.jpg);
+        
+    }
+}
+.hero-p {
+    max-width: 312px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.hero-subscribe-link {
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 17px 65px;
+
+    display: inline-block;
+        
+        
+
+    
+}
+}
+
+@media screen and (min-width:1440px) {
+    .hero-container{
+        display: flex;
+        justify-content:space-between;
+    }
+        .hero-section {
+    
+            max-width: 1440px;
+        }
+        .hero-container {
+            padding-left: 57px;
+            padding-right: 60px;
+            max-width: 1440px;
+        }
+        .hero-h1-container {
+            min-width: 983px;
+            min-height: 530px;
+            margin-bottom: 0;
+            background-image:
+                url(../img/hero.img/product1-desktop-1x.jpg),
+                url(../img/hero.img/product2-desktop-1x.jpg);
+            background-repeat: no-repeat;
+            background-size: 310px 329px, 648px 530px;
+            background-position: left bottom, right bottom;
+    
+        }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-h1-container {
+                background-image:
+                    url(../img/hero.img/product1-desktop-2x.jpg),
+                    url(../img/hero.img/product2-desktop-2x.jpg);
+    
+            }
+        }
+    .hero-desktop-container{
+        background-image:
+                url(../img/hero.img/product3-desktop-1x.jpg);
+                
+            background-repeat: no-repeat;
+            background-size: 312px 337px;
+            background-position:right top;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero-desktop-container {
+                background-image:
+                    url(../img/hero.img/product3-desktop-2x.jpg);
+    
+            }
+        }
+        
+}
