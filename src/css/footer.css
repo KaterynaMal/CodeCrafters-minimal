@@ -18,9 +18,9 @@
     margin-bottom: 36px;
 }
 
-.footer-logo-icon {
+/*.footer-logo-icon {
     fill: var(--white-text-color);
-}
+}*/
 
 .footer-icon-link {
     fill: var(--white-text-color);
@@ -28,14 +28,19 @@
     display: flex;
         width: 40px;
         height: 40px;
+        
 }
 
-.footer-icon-link:hover {
-    fill: --button-accent-color;
-    background-color: transparent;
+.footer-icon-link:hover .footer-soclink-icon,
+.footer-icon-link:focus {
+    fill: var(--button-accent-color);
+    background-color: #fff;
+    
 }
-.footer-soclink-icon:focus {
-    fill: blue;
+
+.footer-soclink-icon {
+    display: flex;
+    border-radius: 50%;
 }
 
 .address-tab {
