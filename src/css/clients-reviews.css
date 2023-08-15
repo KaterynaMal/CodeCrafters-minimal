@@ -8,7 +8,7 @@
 .clients-title {
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 36px;
+   
 }
 
 .clients-container {
@@ -88,7 +88,7 @@ display: none;
    }
 
         .clients-title {
-            margin-top: 0;
+           
         font-size: 32px;
         line-height: 1.41;
         }
@@ -141,7 +141,7 @@ display: none;
     .clients-title {
        font-size: 32px;
        line-height: 1.41;
-        margin-top: 0;
+       
     }
 
     .clients-reviews {

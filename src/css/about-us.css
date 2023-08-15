@@ -65,7 +65,7 @@
 }
 
 .about-img {
-    width: 375px;
+    max-width: 375px;
 }
 
 .picture-container {
