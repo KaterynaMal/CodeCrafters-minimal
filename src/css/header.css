@@ -85,8 +85,11 @@
   line-height: 1.5;
 }
 
-.mob-menu-li:hover,
-.mob-menu-li:focus {
+.mob-menu-item:hover {
+  color: var(--button-accent-color);
+}
+
+.mob-menu-item:focus {
   color: var(--button-accent-color);
 }
 
@@ -182,8 +185,8 @@
     align-items: center;
   }
 
-  .mob-menu-li-desk:hover,
-  .mob-menu-li-desk:focus {
+  .mob-menu-item-desk:hover,
+  .mob-menu-item-desk:focus {
     color: var(--button-accent-color);
   }
 }
