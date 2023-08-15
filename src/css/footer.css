@@ -21,9 +21,18 @@
 .footer-logo-icon {
     fill: var(--white-text-color);
 }
-.footer-soclink-icon:hover {
+
+.footer-icon-link {
+    fill: var(--white-text-color);
+    background-color: transparent;
+    display: flex;
+        width: 40px;
+        height: 40px;
+}
+
+.footer-icon-link:hover {
     fill: --button-accent-color;
-    background-color: --background-white-color;
+    background-color: transparent;
 }
 .footer-soclink-icon:focus {
     fill: blue;
@@ -35,9 +44,11 @@
 
 .footer-icon-link {
     display: flex;
+    width: 40px;
+    height: 40px;
 }
 
-.footer-social-icon-mob {
+.footer-social-icon-tab {
     display: flex;
     flex-direction: row;
     gap: 16px;
