@@ -15,9 +15,13 @@
     margin-bottom: 36px;
 }
 
-/*.footer-logo-icon {
+.footer-logo-icon {
     fill: var(--white-text-color);
-}*/
+}
+
+.footer-logo-icon-tab {
+    display: none;
+}
 
 .footer-icon-link {
     fill: var(--white-text-color);
