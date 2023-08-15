@@ -44,6 +44,11 @@
     border-radius: 50%;
 }
 
+.footer-social-icon-mob {
+    display: flex;
+    flex-direction: row;
+}
+
 .address-tab {
     display: none;
 }
