@@ -142,8 +142,11 @@ padding-bottom: 100px;
   line-height: 1.5;
 }
 
-.mob-menu-li:hover,
-.mob-menu-li:focus {
+.mob-menu-item:hover {
+  color: var(--button-accent-color);
+}
+
+.mob-menu-item:focus {
   color: var(--button-accent-color);
 }
 
@@ -194,12 +197,12 @@ padding-bottom: 100px;
 @media screen and (min-width: 1140px) {
   .mob-logo {
     width: 127px;
-    margin-left: 60px;
-    margin-top: 39px;
   }
 
   .header-container {
     height: 95px;
+    padding-left: 60px;
+    padding-top: 26px;
   }
   .header-burger-svg {
     display: none;
@@ -238,8 +241,8 @@ padding-bottom: 100px;
     align-items: center;
   }
 
-  .mob-menu-li-desk:hover,
-  .mob-menu-li-desk:focus {
+  .mob-menu-item-desk:hover,
+  .mob-menu-item-desk:focus {
     color: var(--button-accent-color);
   }
 }
