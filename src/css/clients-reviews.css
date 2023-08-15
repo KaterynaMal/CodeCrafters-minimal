@@ -162,9 +162,9 @@ display: none;
         padding: 32px;
     }
 
-    .clients-name {
+    /*.clients-name {
         margin-top: 32px;
-    }
+    }*/
     .clients-block {
         margin-bottom: 16px;
         flex-direction: row;
