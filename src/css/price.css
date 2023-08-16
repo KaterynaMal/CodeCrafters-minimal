@@ -19,7 +19,14 @@
     letter-spacing: 0em;
     color: var(--primary-text-color);
     text-align: left;
+    position: relative;
 }
+
+
+
+/*.plan-item:hover {
+    margin-left: 80px;
+}*/
     
   
 .plan-item {
@@ -44,6 +51,9 @@
     text-align: right;
     color: var(--primary-text-color);
 }
+
+
+
 @media screen and (min-width: 768px) {
     .plan-text{
         font-size: 32px;
@@ -64,4 +74,28 @@
     .plan-item {
         min-width: 1096px;
     }
+
+        .plan-text::before {
+            content: '';
+            background-color: #0A224A;
+            position: absolute;
+            left: 0;
+            right: 20px;
+            bottom: 50%;
+    
+    
+            width: 0;
+            height: 0;
+            flex-shrink: 0;
+        }
+    
+        .plan-text:hover::before {
+            width: 50px;
+            height: 3px;
+        }
+    
+        .plan-text:hover {
+            padding-left: 80px;
+            margin-right: 80px;
+        }
 }
